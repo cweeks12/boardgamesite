@@ -37,6 +37,7 @@ body {
     width: 900px;
     margin-left: auto;
     margin-right: auto;
+    overflow: hidden;
 }
 
 .footer {
@@ -143,4 +144,86 @@ body {
 
 .tooltip{
     display: none;
+}
+
+a {
+    color: black;
+}
+
+.intro {
+    font-style: oblique;
+    text-align: center;
+}
+
+.organized {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    width:600px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.organized div{
+    width=100%;
+    padding: 10px;
+    text-align: right;
+}
+
+.organized input {
+    width:100%;
+    height: 1.2em;
+}
+
+input.submit_button {
+    height: 50px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+textarea{
+    width: 100%;
+    height: 100px;
+}
+
+.submit {
+    grid-column: span 2;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.organized_games {
+    width: 900px;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.organized_games .row {
+    height: 300px;
+    padding: 10px;
+}
+
+.organized_games div p {
+    font-size: 1.1em;
+}
+
+.game_image {
+    height: 100%;
+    display: block;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+#collection {
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center;
 }
